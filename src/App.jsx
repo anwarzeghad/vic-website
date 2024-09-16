@@ -3,7 +3,7 @@ import { Route, Routes } from "react-router-dom";
 import Home from "./Home";  // Import de la page Home
 import About from "./About"; // Import de la page About
 import Nav from "./nav"; // Import de la barre de navigation (Nav)
-import Dep from "./dep";
+import Dep from "./Dep";
 import OurTeam from "./OurTeam"
 import Events from "./Events";
 import EventDetails from './EventDetails'; 
