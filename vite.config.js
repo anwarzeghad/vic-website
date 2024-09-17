@@ -5,7 +5,9 @@ export default defineConfig({
   plugins: [react()],
   build: {
     rollupOptions: {
-      external: ['react-router-dom'] // You can try externalizing react-router-dom here if it’s not already resolved.
+      // Remove or comment out the external option
+      // external: ['react-router-dom'] 
     }
   }
 });
+
